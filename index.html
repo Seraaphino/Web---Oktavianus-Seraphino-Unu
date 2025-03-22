@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9a57c55ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav id="sidemenu">
+            <img src="images/logo.png" class="background">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Courses</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick = "closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav> 
+        <div class="header-text">
+            <h1>Hi, I'm <span>Seraphino.</span><br>Welcome to my space, <br>where creativity meets impact!</h1>
+        </div>
+    </div>
+    </div>
+    <!-----about---->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Driven by a passion for mobile technology and entrepreneurship, I am eager to leverage my double degree in Information Systems and Entrepreneurship to gain hands-on experience in the industry while contributing to digital transformation efforts. With six semesters of experience in designing and developing innovative mobile applications, I possess the technical expertise and creative problem-solving skills to significantly contribute to the growth and success of organization. </p>
+                        <p>I am confident in my ability to translate cutting-edge ideas into impactful, user-centric applications that drive business objectives. My academic journey is fueled by a strong commitment to integrating technology with business strategies to create innovative solutions. As I progress through my studies, I am focused on gaining practical experience and developing skills that will enable me to contribute meaningfully to the dynamic fields of information systems and entrepreneurship.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Courses</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience & Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>2022, Odd Semester</span><br>Business Process Fundamental</li>
+                            <li><span></span>Creative Innovative Thinking</li>
+                            <li><span></span><Team> Information System Concept</li>
+                            <li><span></span>Introduction to Entrepreneurship and Business</li>
+                            <li><span></span>Marketing for Entrepreneur</li>
+                            <li><span></span>CB Pancasila</li>
+                            <li><span>2022, Even Semester</span><br>Sustainable Business Model</li>
+                            <li><span></span>Introduction to Database Systems (LAB/LEC)</li>
+                            <li><span></span>Introduction to Programming (LAB/LEC)</li>
+                            <li><span></span>Business Operation and Supply Chain</li>
+                            <li><span></span>CB Kewarganegaraan</li>
+                            <li><span></span>Indonesian</li>
+                            <li><span>2023, Odd Semester</span><br>Business Performance and Analytics</li>
+                            <li><span></span>CB Agama</li>
+                            <li><span></span>Commercializing Emerging Technology (LAB/LEC)</li>
+                            <li><span></span>Entrepreneurial Finance and Accounting (LAB/LEC)</li>
+                            <li><span></span>Entrepreneurial Leadership and Organization</li>
+                            <li><span></span>User Experience Research and Design (LAB/LEC)</li>
+                            <li><span>2023, Even Semester</span><br>Business Application Development (LAB/LEC)</li>
+                            <li><span></span>Business Information System Research Methodology</li>
+                            <li><span></span>Business Law and Ethics</li>
+                            <li><span></span>Business Plan (LAB/LEC)</li>
+                            <li><span></span>Information System Analysis and Design (LAB/LEC)</li>
+                            <li><span></span>Information Technology Infrastructure</li>
+                            <li><span>2023, Odd Semester</span><br>Data and Information Management</li>
+                            <li><span></span>Advanced Information System Analysis and Design (LAB/LEC)</li>
+                            <li><span></span>Digital Business Project (LAB/LEC)</li>
+                            <li><span></span>Enterprise System</li>
+                            <li><span></span>Information System Security</li>
+                            <li><span></span>Testing and System Implementation</li>
+                            <li><span>2024, Even Semester - now </span><br>Advanced in Business Application Development</li>
+                            <li><span></span>Information Systems Project Management</li>
+                            <li><span></span>Knowledge Management</li>
+                            <li><span></span>Marketing Data Analytics</li>
+                            <li><span></span>Mobile Application Development</li>
+                            <li><span></span>Web Based Application Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb 2023</span><br>CB Pancasila Social Activities</li>
+                            <li><span>Jun 2023</span><br>Volunter Sosialisasi Tentang Pengenalan Batik! menanamkan cinta pada warisan budaya di SDN Blimbing 2 Malang</li>
+                            <li><span>Feb 2023 - Jun 2023 </span><br>Study Business Model Canvas PKM-K : RenewOil - Transforming Plastic Waste into Sustainable Fuel</li>
+                            <li><span>Jun 2023 </span><br>Project: Java Cash Register Application</li>
+                            <li><span>Feb 2023 - Jun 2023</span><br>Business Operation System and Supply Chain of Keripik Tempe Burung Swari Malang</li>
+                            <li><span>Sep 2023 </span><br>Fostering Religious Tolerance in the Digital Age</li>
+                            <li><span>Dec 2023</span><br>Proyek ISYS6596003 Sistem Informasi Project Akhir EduFlix</li>
+                            <li><span>Jun 2024</span><br>Business Plan Smart Trolley</li>
+                            <li><span>Sep 2023 - Jun 2024</span><br>SASC (Student Advisory and Support Center) Scholarship Mentor (Odd - Even Semester 2023)</li>
+                            <li><span>Dec 2024</span><br>Information System Project at SABANA App</li>
+                            <li><span>Dec 2024</span><br>Data and Information Management at Bali Scooter Rental</li>
+                            <li><span>Dec 2024</span><br>App Soccerates - Low Code Mendix</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016 - 2021</span><br>SMP - SMA Seminari Pius Xll Kisol</li>
+                            <li><span>2021 - 2022</span><br>SMA Fransiskus Xaverius Ruteng</li>
+                            <li><span>2022 - Now </span><br>Binus University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Service--->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skill</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Code</h2>
+                    <p>Netbeans, SQL, PHP, JavaFx, iReports, XAMPP, Docker, R Studio, HTML, CSS, JavaScript, Excel</p>
+                    <a href="https://www.linkedin.com/in/seraaphino/">See Projects</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop"></i>
+                    <h2>Design</h2>
+                    <p>Figma, Canva, Fontawesome, Adobe Creative Cloud, Miro, Pinterest, etc.</p>
+                    <a href="https://www.linkedin.com/in/seraaphino/">See Projects</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Mendix, Gamemaker</p>
+                    <a href="https://www.linkedin.com/in/seraaphino/">See Projects</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---portofolio-->
+    <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">Sample Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Data and Information Management at Bali Scooter Rental</h3>
+                        <p>The App Connects you yo to the travel agent in Bali. We provide
+                            Transaction Design with Artificial Intelegence (AI), 
+                            Transaction design pemesanan, 
+                            Transaction Design Payment, 
+                            Transaction Design Delivery, 
+                            Transaction Design Return, 
+                            Transaction Design Penalty.
+                            You can book and share your feedback with that application.</p>
+                        <a href="https://www.canva.com/design/DAGQs3-TWIs/OpWM1Z6ENlM3sCB6i-M9YQ/edit?success=true&continue_in_browser=true"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Information System Project at SABANA Application</h3>
+                        <p>We Make: Business Process Modeling with Activity Diagram, 
+                            Use Case Diagram,
+                            Domain Model Class Diagram,
+                            State Machine Diagram,
+                            Use Case Description,
+                            Activity Diagram for Use Case,
+                            Use Case: System Sequence Diagram,
+                            Use Case and CRUD.  </p>
+                        <a href="https://drive.google.com/file/d/1B2bJM5aKkW_1rReyOppCktbHkgw4dKQ2/view?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Mendix - Soccerates</h3>
+                        <p>The App Connects you to the coach and player futsal around the Jakarta.
+                            The app control by admin. We Provide Championship, Location, Coach, Player, Match Menu.</p>
+                        <a href="https://www.canva.com/design/DAGZfoVsqXI/BZDiGkiQrNfOk29k8PdLCA/edit?utm_content=DAGZfoVsqXI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.linkedin.com/in/seraaphino/" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---contact--->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class = "sub-title">Contact</h1>
+                    <p> <i class="fa-solid fa-envelope"></i>seeraph1no@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i>081339831325</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/6281339831325"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://x.com/halobuatnugas?s=21"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/seraaphino?igsh=d3g0eGRxM3ZpZmti&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/seraaphino"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Oktavianus Seraphino Unu_Curiculum Vitae.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name ="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Seraphino. Made With <i class="fas fa-heart"></i>. Let’s keep the creativity flowing!</p>
+        </div>
+    </div>
+
+    <script>
+    
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwd7ZyP8IRIf039-ioruXO29xSUHGubOFpERNT6Bf2UAEovZwydmfZZXmHmW8TzwHkMSA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
